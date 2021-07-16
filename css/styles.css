@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-size: 24px;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url(../images/vancouver_skyline.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    text-align: center;
+    color: black;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 50px black;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
